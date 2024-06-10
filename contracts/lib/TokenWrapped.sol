@@ -66,6 +66,10 @@ contract TokenWrapped is ERC20 {
         return _decimals;
     }
 
+    function test() public view virtual returns (uint8) {
+        return 7;
+    }
+
     // Permit relative functions
     function permit(
         address owner,
