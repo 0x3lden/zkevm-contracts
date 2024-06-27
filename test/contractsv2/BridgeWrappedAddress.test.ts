@@ -87,7 +87,7 @@ describe("PolygonZkEVMBridge Contract", () => {
 
         const salt = ethers.solidityPackedKeccak256(["uint32", "address"], [0, mainnetMaticAddress]);
 
-        const minimalBytecodeProxy = await polygonZkEVMBridgeContract.baseInitByteCodeWrappedToken();
+        const minimalBytecodeProxy = await polygonZkEVMBridgeContract.BASE_INIT_BYTECODE_WRAPPED_TOKEN();
         const hashInitCode = ethers.solidityPackedKeccak256(["bytes", "bytes"], [minimalBytecodeProxy, metadataToken]);
         const precalculateWrappedErc20 = await ethers.getCreate2Address(mainnetBridgeAddress, salt, hashInitCode);
 
