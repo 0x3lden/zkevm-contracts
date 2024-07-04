@@ -8,11 +8,11 @@
     "description": "Type: Validium, Version: etrog, genesis: /ipfs/QmZVxfDG5SbeFT2Zb3BLhf48GmFLyweAnxpPty6Wa8a2YU",
     "forkID": 7,
     "rollupCompatibilityID": 0,
-    "timelockDelay": 3600,
+    "timelockDelay": 2,
     "timelockSalt": "",
-    "gasTokenAddress":"",
+    "gasTokenAddress": "",
     "deployerPvtKey": "",
-    "maxFeePerGas":"",
-    "maxPriorityFeePerGas":"",
+    "maxFeePerGas": "",
+    "maxPriorityFeePerGas": "",
     "multiplierGas": ""
 }
